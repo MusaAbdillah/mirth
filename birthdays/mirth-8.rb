@@ -7,9 +7,17 @@ require "sqlite3"
 require "action_controller"
 require "active_record"
 require "action_dispatch"
+require "active_support"
+require "logger"
 
 # create establish_connection with ar with sqlite3 database
 active_record = ActiveRecord::Base.establish_connection(adapter: "sqlite3", database: "/Users/musaabdillah/Musa/playground/mirth/mirth.sqlite3")
+
+# show current log
+ActiveRecord::Base.logger = ActiveSupport::Logger.new(STDOUT)
+
+# save log to file mirth.log
+ActiveRecord::Base.logger = Logger.new("mirth.log")
 
 # create active_record model for birthdays table
 class Birthday < ActiveRecord::Base; end

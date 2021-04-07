@@ -1,0 +1,10 @@
+# Logfile created on 2021-04-07 14:38:36 +0700 by logger.rb/v1.4.2
+D, [2021-04-07T14:38:39.345749 #28102] DEBUG -- :   [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2021-04-07T14:38:39.346961 #28102] DEBUG -- :   [1m[36mBirthday Load (0.8ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:38:44.046232 #28102] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2021-04-07T14:38:44.046888 #28102] DEBUG -- :   [1m[36mBirthday Load (0.1ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:38:44.463467 #28102] DEBUG -- :   [1m[36mBirthday Load (0.1ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:38:44.644284 #28102] DEBUG -- :   [1m[36mBirthday Load (0.1ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:38:44.807688 #28102] DEBUG -- :   [1m[36mBirthday Load (0.1ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:39:03.276793 #28102] DEBUG -- :   [1m[36mBirthday Load (0.1ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+D, [2021-04-07T14:39:07.304130 #28102] DEBUG -- :   [1m[36mBirthday Load (0.2ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
